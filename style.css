@@ -1,0 +1,253 @@
+/* 全体 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #6C6C6C;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.continer {
+    padding: 0 40px;
+}
+
+/* hreder */
+header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+header .header-title {
+    color: #333333;
+}
+
+header h1 {
+    font-size: 22px;
+    margin: 28px 0 11px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid #E8E8E8;
+    margin-bottom: 16px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li + li {
+    padding-left: 16px;
+}
+
+header ul li a {
+    font-size: 11px;
+}
+
+/* main */
+main img {
+    margin-bottom: 5px;
+}
+
+main .continer1 {
+    padding: 0 16px;
+}
+
+main .main-title {
+    font-size: 15px;
+    border-top: 2px solid #E8E8E8;
+    border-bottom: 2px solid #E8E8E8;
+    padding: 19px 0;
+}
+
+main .main-text {
+    margin: 24px 0;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+main .value {
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+main table {
+    border-collapse: collapse;
+    padding: 0;
+    width: 760px;
+    table-layout: fixed;
+    color: #000;
+    margin-bottom: 20px;
+}
+  
+main table tr {
+    background-color: #fff;
+    padding: .35em;
+    border-bottom: 1px solid #bbb;
+}
+main table thead{
+    border-bottom: 1px solid #bbb;
+}
+main table tr:last-child{
+     border-bottom: none
+}
+
+main table .table-title {
+    width: 440px;
+}
+
+main table th,
+main table td {
+    padding: 1em 10px 1em 1em;
+    border-right: 1px solid #bbb;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+
+main table th:last-child,
+main table td:last-child{
+      border: none;
+}
+main tbody th {
+      color: #333;
+}
+
+main .size {
+    text-align: center;
+}
+
+main .quantity select {
+     width: 440px;
+}
+
+main .btn {
+    background: #4B4B4B;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 760px;
+}
+
+main .btn a {
+    display: block;
+    color: #fff;
+    padding: 14px 0;
+    font-size: 12px;
+}
+
+main .detail {
+    border-collapse: collapse;
+    padding: 0;
+    width: 760px;
+    margin: 0 auto;
+    table-layout: fixed;
+    color: #000;
+    margin-bottom: 100px;
+}
+  
+main .detail tr {
+    background-color: #fff;
+    padding: .35em;
+    border: 1px solid #bbb;
+}
+
+main .detail th {
+    background: #ECEBEB;
+}
+
+main .detail .variation {
+    width: 190px;
+}
+
+main .detail thead{
+    border-bottom: 1px solid #bbb;
+}
+
+main .detail tr:last-child {
+    border-bottom: 1px solid #bbb;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+footer p {
+    font-size: 6px;
+}
+
+@media screen and (min-width: 896px) {
+    main {
+        display: flex;
+        max-width: 800px;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    main .main-position {
+        width: 338px;
+    }
+
+    main img {
+        width: 400px;
+        height: 495px;
+    }
+
+    main table {
+        width: 338px;
+    }
+
+    main table .table-title {
+        width: 180px;
+    }
+
+    main .quantity select {
+        width: 180px;
+    }
+
+    main .btn {
+        width: 338px;
+    }
+
+    main .detail {
+        width: 338px;
+    }
+
+    main .detail .size1 {
+        width: 35px;
+    }
+
+    main .detail .variation {
+        width: 65px;
+    }
+}
